@@ -1,0 +1,32 @@
+/* Theme */
+
+.m-font{font-size: 60px;}
+.s-font{font-size: 20px;}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.area-padding-section{
+    padding: 200px 0px 200px 0px;
+}
+
+.area1-img-back {
+  background-color: #FFF;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  width: 100%;               
+  aspect-ratio: 1 / 1;        
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.area1-button-discover{
+    background: #FF3366;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
