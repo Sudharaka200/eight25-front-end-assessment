@@ -3,9 +3,13 @@
 .m-font {
     font-size: 50px;
 }
-
 .s-font {
     font-size: 20px;
+}
+
+.l-font{
+    font-size: 60px;
+    font-weight: bold;
 }
 
 body {
@@ -80,8 +84,17 @@ body {
     backdrop-filter: blur(4px);
     color: #FFF;
     font-weight: bold;
+    margin-top: 15px;
 }
 
+.mid-area2-3-gradient{
+    height: 250px;
+background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 145, 188, 1) 100%);
+
+
+
+
+}
 .area4-section {
     padding: 200px;
     justify-content: center;
@@ -113,4 +126,13 @@ body {
     padding-top: 30%;
 }
 
+@media (max-width:560px) {
+    .area3-h1{text-align: center;}
+    .area3-p1{text-align: center;}
+}
+
+@media (max-width:900px) {
+    .area-padding-section{   padding: 0px 0px 100px 0px;}
+    .m-img-section{padding: 100px 0px 0px 0px;}
+}
 
