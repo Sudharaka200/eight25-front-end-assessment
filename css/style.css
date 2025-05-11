@@ -1,45 +1,55 @@
 /* Theme */
 
-.m-font{font-size: 50px;}
-.s-font{font-size: 20px;}
-
-body {
-  font-family: 'DM Sans', sans-serif;
+.m-font {
+    font-size: 50px;
 }
 
-.area-padding-section{
+.s-font {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.area-padding-section {
     padding: 200px 0px 200px 0px;
 }
 
 .area1-img-back {
-  background-color: #FFF;
-  justify-content: center;
-  display: flex;
-  border-radius: 10px;
-  width: 100%;               
-  aspect-ratio: 1 / 1;        
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #FFF;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.area1-button-discover{
+
+.area1-button-discover {
     background: #FF3366;
     color: #FFF;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
 }
-.area2-background{
+
+.area2-background {
     background: linear-gradient(135deg, #A323C2, #6C21B4 30%, #001B52 70%, #007BFF);
 }
-.area2-text-content{
+
+.area2-text-content {
     color: #FFF;
 }
-.area2-text-content-h1-1{
+
+.area2-text-content-h1-1 {
     padding: 120px 0px 0px 0px;
 }
+
 /* .area2-text-content-h1-2{
     padding: 0px 50px 0px 0px;
 } */
-.area2-btn-get{
+.area2-btn-get {
     padding: 5px 20px;
     border: none;
     border-radius: 3px;
@@ -49,6 +59,39 @@ body {
     font-weight: bold;
 }
 
+.area4-section {
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(135deg, #050b5e, #103cc0, #a195f4),
+        radial-gradient(circle at 30% 30%, #c3d9ff22, transparent 70%);
+    background-blend-mode: screen;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
 
+.area1-div-img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.img-slide {
+    width: 300px;
+    height: auto;
+    transition: opacity 0.4s ease-in-out;
+}
 
 
