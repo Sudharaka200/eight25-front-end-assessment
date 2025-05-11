@@ -1,6 +1,6 @@
 /* Theme */
 
-.m-font{font-size: 60px;}
+.m-font{font-size: 50px;}
 .s-font{font-size: 20px;}
 
 body {
@@ -27,6 +27,28 @@ body {
     border-radius: 10px;
     border: none;
 }
+.area2-background{
+    background: linear-gradient(135deg, #A323C2, #6C21B4 30%, #001B52 70%, #007BFF);
+}
+.area2-text-content{
+    color: #FFF;
+}
+.area2-text-content-h1-1{
+    padding: 120px 0px 0px 0px;
+}
+/* .area2-text-content-h1-2{
+    padding: 0px 50px 0px 0px;
+} */
+.area2-btn-get{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    color: #FFF;
+    font-weight: bold;
+}
+
 
 
 
