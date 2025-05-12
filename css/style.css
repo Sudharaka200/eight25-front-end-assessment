@@ -99,9 +99,7 @@ background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 1
     padding: 200px;
     justify-content: center;
     align-items: center;
-    background:
-        linear-gradient(135deg, #050b5e, #103cc0, #a195f4),
-        radial-gradient(circle at 30% 30%, #c3d9ff22, transparent 70%);
+    background: linear-gradient(to bottom, #1e3a8a, #ffffff);
     background-blend-mode: screen;
     position: relative;
     overflow: hidden;
