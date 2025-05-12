@@ -99,8 +99,8 @@ background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 1
 .area4-section {
     padding: 200px;
     justify-content: center;
+    background: linear-gradient(to top, #fefeff, #6285f8);
     align-items: center;
-    background: linear-gradient(to bottom, #1e3a8a, #ffffff);
     background-blend-mode: screen;
     position: relative;
     overflow: hidden;
@@ -123,6 +123,19 @@ background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 1
 }
 .area3-h1{
     padding-top: 30%;
+}
+
+.area4-background{
+    background-image: url('../images/671d20fc8868f98a833f69cc_8\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.class-carosal{
+    background-image: url('../images/Untitled\ design.png');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 @media (max-width:560px) {
