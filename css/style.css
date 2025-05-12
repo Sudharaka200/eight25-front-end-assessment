@@ -146,5 +146,6 @@ background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 1
 @media (max-width:900px) {
     .area-padding-section{   padding: 0px 0px 100px 0px;}
     .m-img-section{padding: 100px 0px 0px 0px;}
+    .area4-section {padding: 50px 0px 50px 0px;}
 }
 
