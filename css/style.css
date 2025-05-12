@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     width: 90%;
     aspect-ratio: 1 / 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(225,228,239,240);
 }
 
 .m-area1-img{
@@ -141,11 +141,16 @@ background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 1
 @media (max-width:560px) {
     .area3-h1{text-align: center;}
     .area3-p1{text-align: center;}
+    .l-font{font-size:40px ;}
 }
 
 @media (max-width:900px) {
     .area-padding-section{   padding: 0px 0px 100px 0px;}
     .m-img-section{padding: 100px 0px 0px 0px;}
     .area4-section {padding: 50px 0px 50px 0px;}
+}
+
+@media (max-width:350px) {
+    .m-font{font-size: 25px;}
 }
 
