@@ -18,6 +18,7 @@ body {
 
 .area-padding-section {
     padding: 200px 0px 200px 0px;
+    width: 100%;
 }
 
 .area1-img-back {
@@ -25,7 +26,7 @@ body {
     justify-content: center;
     display: flex;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     aspect-ratio: 1 / 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -35,7 +36,7 @@ body {
     justify-content: center;
     display: flex;
     aspect-ratio: 1 / 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(175, 173, 173, 0.3);
     border-radius: 10px;
     padding: 10px;
 }
