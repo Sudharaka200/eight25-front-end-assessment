@@ -154,3 +154,6 @@ background-color: linear-gradient(nulldeg,rgba(101, 126, 239, 1) 0%, rgba(137, 1
     .m-font{font-size: 25px;}
 }
 
+[data-animate] {
+  opacity: 0; /* Hide elements initially */
+}
